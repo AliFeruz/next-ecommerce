@@ -9,6 +9,12 @@ const nextConfig = {
         port: '',
         pathname: '/photos/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'static.wixstatic.com',
+        port: '',
+        pathname: '/media/**',
+      },
     ],
   },
 };
